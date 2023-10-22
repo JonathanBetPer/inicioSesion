@@ -1,12 +1,19 @@
 package com.example.iniciosesion;
 
-import com.example.iniciosesion.model.CifrarPasswd;
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Scene;
 import javafx.stage.Stage;
 import java.io.IOException;
 
+/**
+ * @author JonathanBetPer
+ * @version v1
+ * @since 22/10/2023
+ * Clase logInApp
+ *
+ * Clase principal del programa que carga la interfaz
+ */
 public class logInApp extends Application {
 
     @Override
