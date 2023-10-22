@@ -1,9 +1,9 @@
 package com.example.iniciosesion;
 
+import com.example.iniciosesion.model.CifrarPasswd;
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Scene;
-import javafx.scene.image.Image;
 import javafx.stage.Stage;
 import java.io.IOException;
 
@@ -17,20 +17,12 @@ public class logInApp extends Application {
         stage.setTitle("Log In");
         stage.setScene(scene);
         stage.show();
+
     }
 
     public static void main(String[] args) {
-        launch();
+      launch();
     }
 
-    @Override
-    public void init() throws Exception {
-        super.init();
-    }
-
-    @Override
-    public void stop() throws Exception {
-        super.stop();
-    }
 
 }
