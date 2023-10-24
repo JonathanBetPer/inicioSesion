@@ -1,0 +1,4 @@
+#Archivo con usuarios, contraseñas con pimienta
+#Tue Oct 24 01:23:49 WEST 2023
+Usuario=$argon2id$v\=19$m\=15360,t\=2,p\=1$HuMKKIQx5WKtCXd+8McaMGdqjFXz/6iHXfaRSqcuc+MfC8sG2KhD3rFB8RBTKVyrXMbTJytBUPOouKLLrWT0gQ$lq+47Ib5MFh2/PjvNG70azuMtcAdvBQe00MUbUdxGqs
+Yoni=$argon2id$v\=19$m\=15360,t\=2,p\=1$9MiLTi2eLmsuNDe+3jI+l+lprcdrLOI3CW3AbeOdEXOI5QribMbSBF3BsMenK1px6YiG70R0Ggl+V3Fp/d80VQ$RaGS9y4kePJjVD6LF07Ou15vyJgvNVQYctEu7O4eG+U

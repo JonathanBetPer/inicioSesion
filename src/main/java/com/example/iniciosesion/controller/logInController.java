@@ -97,7 +97,6 @@ public class logInController implements Initializable {
                 generarAlerta(Alert.AlertType.WARNING,"Ojo","El usuario "+tf_usuario.getText()+" ya está registrado");
             }
         }
-
     }
 
     /**

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.net.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="402.0" prefWidth="274.0" stylesheets="@../../../styles/style.css" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1"
+            fx:controller="com.example.iniciosesion.controller.logInController">
+   <children>
+      <VBox layoutX="-6.0" prefHeight="402.0" prefWidth="281.0" styleClass="loginForm">
+         <children>
+            <Label styleClass="h1" text="Iniciar Sesión">
+               <font>
+                  <Font name="System Bold Italic" size="12.0" />
+               </font></Label>
+            <VBox prefHeight="77.0" prefWidth="204.0" styleClass="cajaForm">
+               <children>
+                  <Label prefHeight="20.0" prefWidth="257.0" styleClass="h2" text="Usuario" />
+                  <TextField fx:id="tf_usuario" />
+               </children>
+            </VBox>
+            <VBox prefHeight="200.0" prefWidth="100.0" styleClass="cajaForm">
+               <children>
+                  <Label prefHeight="20.0" prefWidth="231.0" styleClass="h2" text="Contraseña">
+                     <stylesheets>
+                        <URL value="@../../../styles/style.css" />
+                     </stylesheets></Label>
+                  <PasswordField fx:id="pf_contra" />
+               </children>
+            </VBox>
+            <Button fx:id="bt_inicio" mnemonicParsing="false" onAction="#iniciarSesion" prefHeight="38.0" prefWidth="250.0" text="Iniciar sesión" />
+            <Button fx:id="bt_registrar" mnemonicParsing="false" onAction="#registrarse" prefHeight="38.0" prefWidth="250.0" text="Registrarse" />
+         </children>
+      </VBox>
+   </children>
+</AnchorPane>

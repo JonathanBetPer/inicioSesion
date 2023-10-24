@@ -1,0 +1,3 @@
+#Archivo con usuarios, contraseñas con pimienta
+#Sun Oct 22 21:28:55 WEST 2023
+Yoni=$argon2id$v\=19$m\=15360,t\=2,p\=1$9MiLTi2eLmsuNDe+3jI+l+lprcdrLOI3CW3AbeOdEXOI5QribMbSBF3BsMenK1px6YiG70R0Ggl+V3Fp/d80VQ$RaGS9y4kePJjVD6LF07Ou15vyJgvNVQYctEu7O4eG+U
